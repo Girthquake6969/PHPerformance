@@ -1,0 +1,35 @@
+{
+    "name": "girthquake6969/phperformance",
+    "description": "Performant core functionality relevant to any PHP codebase",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Sean Hurley"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "doctrine/doctrine-bundle": "^3.2",
+        "doctrine/dbal": "^4.4",
+        "symfony/messenger": "^8.1",
+        "symfony/security-bundle": "^8.1",
+        "symfony/serializer": "^8.1",
+        "symfony/dotenv": "^8.1",
+        "firebase/php-jwt": "^7.1",
+        "lexik/jwt-authentication-bundle": "^3.2",
+        "symfony/doctrine-messenger": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App\\Model\\": "src/Model",
+            "PHPerformance\\": "",
+            "PHPerformance\\Core\\": "core",
+            "PHPerformance\\Exceptions\\": "exceptions",
+            "PHPerformance\\Objects\\": "objects",
+            "PHPerformance\\Objects\\Events\\": "objects/events"
+        }
+    }
+}
