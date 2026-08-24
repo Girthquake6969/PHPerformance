@@ -1,0 +1,26 @@
+# === Symfony Framework ===
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/public/assets/
+/assets/vendor/
+/var/
+/vendor/
+.phpunit.cache/
+/phpunit.xml
+
+# Log/temporary/backup files
+*.log
+*.ini
+*.txt
+*.csv
+*.sql
+*.old
+*.json
+
+.vscode/
+.idea/
+.history/
+dumps/
